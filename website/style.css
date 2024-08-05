@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.banner{
+    background-image: url(blue-perfume-bottle-surrounded-by-fresh-citrus-herbs-wet-surface.jpg);
+   width: 100%;
+   height: 60vh;
+   background-position:center;
+  background-size: cover;
+  position: relative;
+
+}
+nav{
+    padding: 25px;
+    cursor: pointer;
+    position: relative;
+}
+li,h1,ul{
+    display: inline;
+    padding: 5px;
+    
+} 
+ul{
+    margin-left: 540px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+h1{
+    color: #B04C03;
+    text-shadow: 2px 3px 9px white ;
+}
+
+a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.blue{
+    color: white;
+}
+input{
+    width: 800px;
+    padding: 15px;
+    
+}
+.search{
+    padding: 180px;
+    text-align: center;
+ 
+    
+}
+.search input{
+    box-sizing: border-box;
+    background: rgba(0,0,0, 0.3);
+    border: 2px solid #ffff;
+    border-radius:  5px; 
+    font-size: 18px;
+    color: white;
+    outline: none;
+}
+::-webkit-input-placeholder{ /*for chrome, opera, safari*/
+color: white;}
+
+.products{
+    display: flex;
+   flex-wrap: wrap;
+   
+  justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+  
+}
+.p1,.p2,.p3{
+    background-color:white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    border-color:black;
+    text-align: center;
+
+ 
+}
+.buttons{
+padding: 10px;
+text-align: center;
+
+background-color: black;
+border: 10px solid #ffff;
+font-size: 18px;
+color: white;
+width: 250px;
+cursor:pointer
+
+}
+.offerb{
+    padding: 50px;
+}
+
+.abouts{
+    background-color:black;
+    border-width: 2px;
+    border-style: solid;
+    height: auto;
+    border-color:black;
+    color: white;
+   text-align: center;
+   padding: 10px;
+}
+.icons > ul{
+    text-align: center;
+    font-size: 25px;
+    display: inline;
+    margin-left: 20px;
+}
+.abouttt .orders{
+    display: inline;
+    margin-left: 28px;
+    
+    margin: 20px;
+
+}
+.abouttt{
+    padding: 20px;
+}
+
+.outer-container{
+    
+    
+    position:relative;
+    
+}
+body{
+    min-height: 300vh;
+}
